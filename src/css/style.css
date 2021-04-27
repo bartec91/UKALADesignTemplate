@@ -1,0 +1,201 @@
+@import "https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Nunito+Sans:wght@200;300;400;700;800&family=Poppins:ital,wght@0,700;1,700&display=swap";
+@-ms-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #504e4f;
+}
+a:hover {
+  color: #363536;
+}
+
+input,
+textarea,
+button {
+  -webkit-appearance: none;
+  border-radius: 0;
+  outline: none;
+}
+
+input[type="radio"] {
+  -webkit-appearance: radio;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+}
+
+.outline {
+  position: absolute;
+  clip: rect(0px 0px 0px 0px);
+  *clip: rect 0 0 0 0;
+}
+
+mark {
+  background: none;
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 400 2rem/1 "Nunito Sans", sans-serif;
+  color: #504e4f;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.content section h1, .content section h2 {
+  margin-bottom: 6.3rem;
+}
+.content section h3 {
+  margin-bottom: 2rem;
+}
+.content section h4, .content section h5, .content section h6 {
+  margin-bottom: 1rem;
+}
+.content img {
+  max-width: 100%;
+}
+
+ul.errors {
+  width: 600px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #FFD4DE;
+}
+
+ul.errors li {
+  list-style: none;
+  line-height: 30px;
+  color: #F70053;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1199px) {
+  .container {
+    width: 100%;
+    max-width: 992px;
+    padding: 0 4rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 768px;
+    padding: 0 3rem;
+  }
+}
+.header {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #504e4f;
+}
+.header__top {
+  background-color: #f39022;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+}
+.header__top button {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #504e4f;
+}
+.header__top button:hover {
+  color: #b6b4b5;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  color: #504e4f;
+}
+
+a {
+  transition: color 0.3s linear;
+}
+
+.button {
+  transition: all 0.3s linear;
+}

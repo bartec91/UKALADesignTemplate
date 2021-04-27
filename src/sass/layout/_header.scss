@@ -1,0 +1,43 @@
+// -------------------------------
+//     HEADER VARIABLES
+// -------------------------------
+
+    // *--------- TYPOGRAPHY ---------*
+
+    // *--------- COLORS ---------*
+
+// ----------------------------
+//     HEADER STYLES
+// -----------------
+
+.header {
+    font-size: $font-size;
+    font-weight: $font-weight;
+    color: $base__color;
+
+    &__top {
+        background-color: $third__color;
+
+        font-size: $font-size--small;
+        font-weight: $font-weight--bold;
+        color: $second__color;
+
+        button {
+            font-size: $font-size--small;
+            font-weight: $font-weight--bold;
+            color: $base__color;
+
+            &:hover {
+                color: $base__color--active;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}

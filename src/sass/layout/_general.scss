@@ -1,0 +1,44 @@
+// -------------------------------
+//     GENERAL VARIABLES
+// -------------------------------
+
+    // *--------- METRICS ---------*
+    $container__width: 1160px;
+
+    // *--------- TYPOGRAPHY ---------*
+
+// ----------------------------
+//     GENERAL STYLES
+// ----------------------------
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: $container__width;
+    margin: 0 auto;
+
+}
+
+@media only screen and (max-width: 1199px) {
+    .container {
+        width: 100%;
+        max-width: 992px;
+        padding: 0 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 768px;
+        padding: 0 3rem;
+    }
+}
