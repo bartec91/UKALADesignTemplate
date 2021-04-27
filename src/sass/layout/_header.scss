@@ -11,9 +11,13 @@
 // -----------------
 
 .header {
+    font-family: $second__font-family;
     font-size: $font-size;
     font-weight: $font-weight;
     color: $base__color;
+
+    background: url('../img/bg-header.jpg') no-repeat;
+    background-size: cover;
 
     &__top {
         background-color: $third__color;
@@ -30,6 +34,12 @@
             &:hover {
                 color: $base__color--active;
             }
+        }
+    }
+
+    &__bottom {
+        h1 {
+            font-size: $font-size--x-large;
         }
     }
 }

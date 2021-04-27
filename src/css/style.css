@@ -168,9 +168,12 @@ body {
   }
 }
 .header {
+  font-family: "Poppins", sans-serif;
   font-size: 2rem;
   font-weight: 400;
   color: #504e4f;
+  background: url("../img/bg-header.jpg") no-repeat;
+  background-size: cover;
 }
 .header__top {
   background-color: #f39022;
@@ -185,6 +188,9 @@ body {
 }
 .header__top button:hover {
   color: #b6b4b5;
+}
+.header__bottom h1 {
+  font-size: 6.3rem;
 }
 
 .nav-link {
