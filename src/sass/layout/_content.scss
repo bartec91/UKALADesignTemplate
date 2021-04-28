@@ -13,7 +13,8 @@
 .content {
     background-color: $fourth__color;
 }
-.section-posts {
+
+.section-posts, .section-member {
     &__item {
         font-family: $base__font-family;
         font-size: $font-size;
@@ -24,8 +25,14 @@
             font-family: $second__font-family;
             font-size: $font-size--large
         }
-    }
 
+        &-subtitle {
+            font-size: $font-size;
+        }
+    }
+}
+
+.section-posts {
     &__download {
         &-icon, i {
             font-size: $font-size--x-large;
@@ -36,6 +43,24 @@
 
             span, i {
                 color: $base__color;
+            }
+        }
+    }
+}
+
+.section-member {
+    background: url('../img/bg-member.png') no-repeat;
+    background-size: contain;
+
+    &__item-col {
+        button {
+            padding: 1rem 8rem;
+            font-family: $second__font-family;
+            font-size: $link__font-size--large;
+
+            &:hover {
+                border: none;
+                color: $third__color--active;
             }
         }
     }

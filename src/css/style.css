@@ -210,16 +210,20 @@ body {
   background-color: #f6f6f6;
 }
 
-.section-posts__item {
+.section-posts__item, .section-member__item {
   font-family: "Nunito Sans", sans-serif;
   font-size: 2rem;
   font-weight: 400;
   color: #504e4f;
 }
-.section-posts__item-title {
+.section-posts__item-title, .section-member__item-title {
   font-family: "Poppins", sans-serif;
   font-size: 3.8rem;
 }
+.section-posts__item-subtitle, .section-member__item-subtitle {
+  font-size: 2rem;
+}
+
 .section-posts__download-icon, .section-posts__download i {
   font-size: 6.3rem;
 }
@@ -228,6 +232,25 @@ body {
 }
 .section-posts__download-file span, .section-posts__download-file i {
   color: #504e4f;
+}
+
+.section-member {
+  background: url("../img/bg-member.png") no-repeat;
+  background-size: contain;
+}
+.section-member__item-col button {
+  padding: 1rem 8rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+}
+.section-member__item-col button:hover {
+  border: none;
+  color: #fbd9b3;
+}
+
+.footer .section__popular {
+  background: url("../img/bg-popular.png") no-repeat;
+  background-size: cover;
 }
 
 a {
