@@ -27,6 +27,10 @@ body {
 
 }
 
+.border-orange {
+    border-color: $third__color!important;
+}
+
 @media only screen and (max-width: 1199px) {
     .container {
         width: 100%;

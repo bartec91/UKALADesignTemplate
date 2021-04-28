@@ -111,6 +111,10 @@ strong {
   font-weight: 700;
 }
 
+.text-orange {
+  color: #f39022;
+}
+
 .content section h1, .content section h2 {
   margin-bottom: 6.3rem;
 }
@@ -151,6 +155,10 @@ body {
   width: 100%;
   max-width: 1160px;
   margin: 0 auto;
+}
+
+.border-orange {
+  border-color: #f39022 !important;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -198,10 +206,30 @@ body {
   color: #504e4f;
 }
 
-a {
-  transition: color 0.3s linear;
+.content {
+  background-color: #f6f6f6;
 }
 
-.button {
-  transition: all 0.3s linear;
+.section-posts__item {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #504e4f;
+}
+.section-posts__item-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.8rem;
+}
+.section-posts__download-icon, .section-posts__download i {
+  font-size: 6.3rem;
+}
+.section-posts__download-file {
+  font-size: 2.5rem;
+}
+.section-posts__download-file span, .section-posts__download-file i {
+  color: #504e4f;
+}
+
+a {
+  transition: color 0.3s linear;
 }

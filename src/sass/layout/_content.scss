@@ -10,3 +10,33 @@
 //     CONTENT STYLES
 // ----------------------------
 
+.content {
+    background-color: $fourth__color;
+}
+.section-posts {
+    &__item {
+        font-family: $base__font-family;
+        font-size: $font-size;
+        font-weight: $font-weight;
+        color: $base__color;
+
+        &-title {
+            font-family: $second__font-family;
+            font-size: $font-size--large
+        }
+    }
+
+    &__download {
+        &-icon, i {
+            font-size: $font-size--x-large;
+        }
+
+        &-file {
+            font-size: $link__font-size--large;
+
+            span, i {
+                color: $base__color;
+            }
+        }
+    }
+}
