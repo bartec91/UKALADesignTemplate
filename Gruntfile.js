@@ -4,7 +4,7 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
         clean: {
             dev: {
-                src: ["src/css/*", "!src/css/bootstrap.min.css", "!src/css/bootstrap.min.css.map", "!src/css/fontawesome.min.css", "!src/css/solid.min.css", "!src/css/brands.min.css", "!src/css/webfonts"]
+                src: ["src/css/*", "!src/css/bootstrap.min.css", "!src/css/bootstrap.min.css.map", "!src/css/fontawesome.min.css", "!src/css/solid.min.css", "!src/css/brands.min.css", "!src/css/regular.min.css", "!src/css/webfonts"]
             },
             prod: {
                 src: ["build/**"]
@@ -32,7 +32,7 @@ module.exports = function (grunt) {
                 options: {
                     browsers: ['last 2 versions']
                 },
-                src: ["src/css/*.css", "!src/css/bootstrap.min.css", "!src/css/bootstrap.min.css.map", "!src/css/fontawesome.min.css", "!src/css/solid.min.css", "!src/css/webfonts/*.css"]
+                src: ["src/css/*.css", "!src/css/bootstrap.min.css", "!src/css/bootstrap.min.css.map", "!src/css/fontawesome.min.css", "!src/css/solid.min.css", "!src/css/brands.min.css", "!src/css/regular.min.css", "!src/css/webfonts/*.css"]
             }
         },
         concat: {
@@ -81,7 +81,7 @@ module.exports = function (grunt) {
             prod: {
                 expand: true,
                 cwd: 'src',
-                src: ["index.html", "css/bootstrap.min.css", "css/bootstrap.min.css.map", "css/fontawesome.min.css", "css/solid.min.css", "css/webfonts/**", "js/lib/**"],
+                src: ["index.html", "css/bootstrap.min.css", "css/bootstrap.min.css.map", "css/fontawesome.min.css", "css/solid.min.css", "!src/css/brands.min.css", "!src/css/regular.min.css", "css/webfonts/**", "js/lib/**"],
                 dest: 'build/',
             }
         },

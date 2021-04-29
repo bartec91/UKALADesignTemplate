@@ -12,9 +12,23 @@
 // ----------------------------
 
 .footer {
-    .section__popular {
+    .section-popular {
         background: url('../img/bg-popular.png') no-repeat;
         background-size: cover;
+
+        &__link {
+            font-family: $second__font-family;
+            font-size: $link__font-size--large;
+            color: $base__color;
+        }
+
+        &__icon {
+            font-size: $font-size--x-large;
+        }
+    }
+
+    .section-info {
+        background-color: $base__color;
     }
 
 }
