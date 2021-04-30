@@ -3,7 +3,7 @@
 // -------------------------------
 
     // *--------- TYPOGRAPHY ---------*
-
+    $footer-text__font-size: 1.6rem;
     // *--------- COLORS ---------*
 
 
@@ -28,7 +28,18 @@
     }
 
     .section-info {
+        font-family: $base__font-family;
+        font-size: $footer-text__font-size;
         background-color: $base__color;
+
+        &__title {
+            font-family: $second__font-family;
+            font-size: $font-size;
+        }
+
+        &__designed {
+            font-size: $font-size--x-small;
+        }
     }
 
 }
