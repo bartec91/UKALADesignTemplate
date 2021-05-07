@@ -23,7 +23,7 @@
 
         &-title {
             font-family: $second__font-family;
-            font-size: $font-size--large
+            font-size: $font-size--large;
         }
 
         &-subtitle {
@@ -64,4 +64,24 @@
             }
         }
     }
+}
+
+@media only screen and (max-width: 1199px) {
+    .section-member {
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section-posts, .section-member {
+    &__item {
+        &-title {
+            font-size: $font-size;
+        }
+
+        &-subtitle {
+            font-size: $font-size--small;
+        }
+    }
+}
 }

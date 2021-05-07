@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Nunito+Sans:wght@200;300;400;700;800&family=Poppins:ital,wght@0,700;1,700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Karla:wght@700&family=Nunito+Sans:wght@200;300;400;700;800&family=Poppins:ital,wght@0,700;1,700&display=swap";
 @-ms-viewport {
   width: device-width;
 }
@@ -152,6 +152,11 @@ ul.errors li {
   color: #F70053;
 }
 
+.social i {
+  font-size: 2.2rem;
+  margin-right: 2.5rem;
+}
+
 html {
   height: 100%;
 }
@@ -212,6 +217,11 @@ body {
   font-size: 6.3rem;
 }
 
+@media only screen and (max-width: 768px) {
+  .header__bottom h1 {
+    font-size: 3.8rem;
+  }
+}
 .nav-link {
   font-size: 1.3rem;
   color: #504e4f;
@@ -259,6 +269,22 @@ body {
   color: #fbd9b3;
 }
 
+@media only screen and (max-width: 1199px) {
+  .section-member {
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-posts__item-title, .section-member__item-title {
+    font-size: 2rem;
+  }
+  .section-posts__item-subtitle, .section-member__item-subtitle {
+    font-size: 1.8rem;
+  }
+}
+.footer {
+  font-family: "Nunito Sans", sans-serif;
+}
 .footer .section-popular {
   background: url("../img/bg-popular.png") no-repeat;
   background-size: cover;
@@ -272,16 +298,29 @@ body {
   font-size: 6.3rem;
 }
 .footer .section-info {
-  font-family: "Nunito Sans", sans-serif;
   font-size: 1.6rem;
   background-color: #504e4f;
+}
+.footer .section-info .logo {
+  font-size: 1.8rem;
 }
 .footer .section-info__title {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
 }
+.footer .section-info__menu--different {
+  font-family: "Lato", sans-serif;
+}
+.footer .section-info__menu-link {
+  padding-left: 0;
+  font-size: 1.6rem;
+}
 .footer .section-info__designed {
   font-size: 1.3rem;
+}
+.footer .section-copyright {
+  font-size: 1.3rem;
+  background-color: #3f3e3e;
 }
 
 a {

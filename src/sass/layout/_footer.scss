@@ -12,6 +12,8 @@
 // ----------------------------
 
 .footer {
+    font-family: $base__font-family;
+
     .section-popular {
         background: url('../img/bg-popular.png') no-repeat;
         background-size: cover;
@@ -28,18 +30,35 @@
     }
 
     .section-info {
-        font-family: $base__font-family;
         font-size: $footer-text__font-size;
         background-color: $base__color;
+
+        .logo {
+            font-size: $font-size--small;
+        }
 
         &__title {
             font-family: $second__font-family;
             font-size: $font-size;
         }
 
+        &__menu--different {
+            font-family: $fourth__font-family;
+        }
+
+        &__menu-link {
+            padding-left: 0;
+            font-size: $footer-text__font-size;
+        }
+
         &__designed {
             font-size: $font-size--x-small;
         }
+    }
+
+    .section-copyright {
+        font-size: $font-size--x-small;
+        background-color: $sixth__color;
     }
 
 }

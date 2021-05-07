@@ -22,22 +22,23 @@
     <header class="header">
         <div class="header__top">
             <div class="header__container container">
-                <div class="row align-items-center justify-content-between py-2 py-lg-4">
+                <div class="row align-items-center justify-content-between py-4">
                     <a href="/"
-                        class="col-md-auto col-12 me-md-auto d-flex align-items-xl-end text-left text-white header__logo logo">
+                        class="col-md-auto col-12 me-md-auto d-flex align-items-center align-items-xl-end text-left text-white header__logo logo">
                         <img src="img/logo.png" class="me-5 logo__image" alt="UKALA">
                         <div class="text-uppercase logo__text">UK Association<br>
                             <span class="fw-light"> of</span> Letting Agents
                         </div>
                     </a>
-                    <div class="col-md-auto col-12 header__info">
-                        <a href="#" class="text-white">
+                    <div class="col-md-auto col-12 d-flex align-items-center flex-wrap flex-md-nowrap header__info">
+                        <a href="#" class="my-4 my-md-0 text-white">
                             Find a UKALA agent
                         </a>
-                        <a href="#" class="ms-3 ms-xl-5 text-white">
+                        <a href="#" class="my-4 my-md-0 ms-auto ms-lg-5 text-white">
                             Join UKALA
                         </a>
-                        <button type="button" class="btn btn-primary bg-white ms-3 ms-xl-5 py-3 px-5 border-0 rounded">
+                        <button type="button"
+                            class="btn btn-primary bg-white my-4 my-md-0 ms-auto ms-lg-5 py-3 px-5 border-0 rounded">
                             <i class="fas fa-unlock fa-flip-horizontal me-3"></i>
                             Log in
                         </button>
@@ -47,14 +48,15 @@
         </div>
         <div class="header__menu bg-white">
             <div class="header__container container">
-                <div class="row py-2">
-                    <nav class="navbar navbar-expand-lg">
+                <div class="row py-4">
+                    <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="toggleMenu"
-                                aria-controls="toggleMenu" aria-expanded="false" aria-label="Toggle Menu">
+                            <button class="navbar-toggler order-1 order-lg-0" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#toggleMenu" aria-controls="toggleMenu" aria-expanded="false"
+                                aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="toggleMenu">
+                            <div class="collapse navbar-collapse order-2 order-lg-0" id="toggleMenu">
                                 <ul class="navbar-nav nav nav-fill w-100">
                                     <li class="nav-item">
                                         <a class="nav-link fw-bold" href="#">
@@ -108,8 +110,8 @@
                 </div>
             </div>
         </div>
-        <div class="header__bottom container py-3 py-xl-5">
-            <div class="row py-3 py-xl-5 header__page-title">
+        <div class="header__bottom container py-5">
+            <div class="row py-5 header__page-title">
                 <div class="col-12">
                     <h1 class="fw-bold text-white text-center header__title">
                         Tax investigation insurance
@@ -118,12 +120,12 @@
             </div>
         </div>
     </header>
-    <main class="content py-3 py-xl-5">
+    <main class="content py-5">
         <section class="section-posts container" id="section-1">
             <div class="section-posts__wrapper">
                 <div class="section-posts__list">
                     <div
-                        class="section-posts__item row justify-content-lg-between py-3 py-xl-5 border-bottom border-3 border-orange">
+                        class="section-posts__item row justify-content-lg-between py-5 border-bottom border-3 border-orange">
                         <div class="col-12 col-lg-8 text-left section-posts__item-col">
                             <h3 class="section-posts__item-title fw-bold text-orange">
                                 Tax investigation insurance
@@ -173,7 +175,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section-posts__item row justify-content-lg-between py-3 py-xl-5">
+                    <div class="section-posts__item row justify-content-lg-between py-5">
                         <div class="col-12 col-lg-8 text-left section-posts__item-col">
                             <h4 class="section-posts__item-subtitle fw-bolder">
                                 MEMBERS SECTION
@@ -200,7 +202,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="section-member container my-3 my-xl-5 py-3 py-xl-5">
+                    <div class="section-member container my-3 my-xl-5 py-5">
                         <div class="row section-member__item py-xl-3">
                             <div class="col-12 section-member__item-col text-center text-white">
                                 <h3 class="section-member__item-title fw-bold">
@@ -225,9 +227,9 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="section-popular py-3 py-xl-5">
+        <div class="section-popular py-5">
             <div class="section-popular__container container">
-                <div class="section-popular__list row py-3 py-xl-5">
+                <div class="section-popular__list row py-5">
                     <div class="section-popular__col col-12">
                         <div class="row pb-3 pb-xl-5">
                             <div class="section-popular__title col-12 mb-5">
@@ -292,31 +294,21 @@
                 </div>
             </div>
         </div>
-        <div class="section-info py-3 py-xl-5 text-left text-white fw-light">
+        <div class="section-info py-5 text-left text-white fw-light">
             <div class="section-info__container container">
                 <div class="row mb-5">
                     <a href="/"
-                        class="section-info__col col-12 mb-5 me-md-auto d-flex align-items-xl-end text-left text-white header__logo logo">
+                        class="section-info__col col-12 mb-5 me-md-auto d-flex align-items-center align-items-xl-end text-left text-white footer__logo logo">
                         <img src="img/logo.png" class="me-5 logo__image" alt="UKALA">
-                        <div class="text-uppercase logo__text">UK Association<br>
+                        <div class="text-uppercase fw-bold logo__text">UK Association<br>
                             <span class="fw-light"> of</span> Letting Agents
                         </div>
                     </a>
                 </div>
                 <div class="row mb-5">
                     <div class="col-12 col-lg-3">
-                        <h4 class="section-info__title fw-bold">Quick Links</h4>
-                    </div>
-                    <div class="col-12 col-lg-3 offset-lg-3">
-                        <h4 class="section-info__title fw-bold">Follow Us</h4>
-                    </div>
-                    <div class="col-12 col-lg-3">
-                        <h4 class="section-info__title fw-bold">Contact Us</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-lg-3">
-                        <ul class="nav flex-column">
+                        <h4 class="section-info__title mb-5 fw-bold">Quick Links</h4>
+                        <ul class="nav flex-column section-info__menu">
                             <li class="nav-item mb-3">
                                 <a class="nav-link section-info__menu-link text-white" href="#">About </a>
                             </li>
@@ -335,7 +327,7 @@
                         </ul>
                     </div>
                     <div class="col-12 col-lg-3">
-                        <ul class="nav flex-column">
+                        <ul class="nav flex-column section-info__menu section-info__menu--different">
                             <li class="nav-item mb-3">
                                 <a class="nav-link section-info__menu-link text-white" href="#">Search for a UKALA
                                     agent</a>
@@ -349,44 +341,61 @@
                         </ul>
                     </div>
                     <div class="col-12 col-lg-3">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-linkedin-in"></i>
+                        <h4 class="section-info__title mb-5 fw-bold">Follow Us</h4>
+                        <a class="section-info__social social text-white" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="section-info__social social text-white" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="section-info__social social text-white" href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
                     </div>
                     <div class="col-12 col-lg-3">
-                        <p>
-                            UKALA 2nd floor,
-                            200 Union Street,
-                            London,
+                        <h4 class="section-info__title mb-5 fw-bold">Contact Us</h4>
+                        <p class="mb-3">
+                            UKALA 2nd floor,<br>
+                            200 Union Street,<br>
+                            London,<br>
                             SE1 0LX
-
-                            info@ukala.org.uk
-                            020 7820 7900
                         </p>
-                    </div>
-                    <div class="col-12 mt-5 section-info__designed">
-                        <p>Website by <span class="fw-bold">Websmart</span></p>
+
+                        <p>
+                            <a class="text-white" href="mailto:info@ukala.org.uk">info@ukala.org.uk</a><br>
+                            <a class="text-white" href="tel:02078207900">020 7820 7900</a>
+                        </p>
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-12 mt-5 section-info__designed">
+                        <p>Website by <a href="#" class="text-white fw-bold">Websmart</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-copyright py-5 text-left text-white fw-light">
+            <div class="section-copyright__container container">
+                <div class="row justify-content-between">
                     <div class="col-12 col-lg-6">
                         <ul class="nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About us</a>
+                                <a class="nav-link section-copyright__link text-white" href="#">About us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Cookies</a>
+                                <a class="nav-link section-copyright__link text-white" href="#">Cookies</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Privacy</a>
+                                <a class="nav-link section-copyright__link text-white" href="#">Privacy</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Terms & Conditions</a>
+                                <a class="nav-link section-copyright__link text-white" href="#">Terms &
+                                    Conditions</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-12 col-lg-3">
-                        <div class="copyright">
+                        <div class="section-copyright__details text-center fw-light">
                             © UKALA 2019
                         </div>
                     </div>

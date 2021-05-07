@@ -49,5 +49,11 @@
 }
 
 @media only screen and (max-width: 768px) {
-
+    .header {
+        &__bottom {
+            h1 {
+                font-size: $font-size--large;
+            }
+        }
+    }
 }
