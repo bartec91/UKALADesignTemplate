@@ -81,7 +81,7 @@ module.exports = function (grunt) {
             prod: {
                 expand: true,
                 cwd: 'src',
-                src: ["index.html", "css/bootstrap.min.css", "css/bootstrap.min.css.map", "css/fontawesome.min.css", "css/solid.min.css", "!src/css/brands.min.css", "!src/css/regular.min.css", "css/webfonts/**", "js/lib/**"],
+                src: ["index.html", "css/bootstrap.min.css", "css/bootstrap.min.css.map", "css/fontawesome.min.css", "css/solid.min.css", "css/brands.min.css", "css/regular.min.css", "css/webfonts/**", "js/app/lib/**"],
                 dest: 'build/',
             }
         },

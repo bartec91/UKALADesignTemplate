@@ -17,19 +17,6 @@
     @import "base/typography";
 
 // ---------------------
-//     COMPONENTS
-// ---------------------
-
-    // *--------- BUTTONS ---------*
-    @import "components/buttons";
-
-    // *--------- FORMS ---------*
-    @import "components/forms";
-
-    // *--------- SOCIAL ---------*
-    @import "components/social";
-
-// ---------------------
 //     LAYOUT
 // ---------------------
 
@@ -39,14 +26,21 @@
     // *--------- HEADER ---------*
     @import "layout/header";
 
-    // *--------- NAV ---------*
-    @import "components/nav";
-
     // *--------- CONTENT ---------*
     @import "layout/content";
 
     // *--------- FOOTER ---------*
     @import "layout/footer";
+
+// ---------------------
+//     COMPONENTS
+// ---------------------
+
+    // *--------- NAV ---------*
+    @import "components/nav";
+
+    // *--------- SOCIAL ---------*
+    @import "components/social";
 
 // ---------------------
 //     EXTENDS

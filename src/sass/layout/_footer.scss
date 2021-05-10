@@ -18,10 +18,28 @@
         background: url('../img/bg-popular.png') no-repeat;
         background-size: cover;
 
+        &__item {
+            .col-12.bg-white {
+                @extend %transitionBgColor;
+
+                &:hover {
+                    background-color: $base__color--active!important;
+                }
+            }
+        }
+
         &__link {
             font-family: $second__font-family;
             font-size: $link__font-size--large;
             color: $base__color;
+
+            &:hover {
+                color: $third__color;
+
+                span {
+                    color: $base__color;
+                }
+            }
         }
 
         &__icon {

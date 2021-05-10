@@ -34,3 +34,11 @@
     -ms-transition: $props $speed $easing;
     transition: $props $speed $easing;
 }
+
+// *--------- PARALLAX ---------*
+@mixin parallax {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

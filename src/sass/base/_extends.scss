@@ -10,6 +10,14 @@
     @include transition($props: color);
 }
 
+%transitionBgColor {
+    @include transition($props: background-color);
+}
+
 %transitionAll {
     @include transition;
+}
+
+%parallax {
+    @include parallax;
 }

@@ -139,24 +139,6 @@ strong {
   max-width: 100%;
 }
 
-ul.errors {
-  width: 600px;
-  padding: 20px;
-  margin-bottom: 30px;
-  background-color: #FFD4DE;
-}
-
-ul.errors li {
-  list-style: none;
-  line-height: 30px;
-  color: #F70053;
-}
-
-.social i {
-  font-size: 2.2rem;
-  margin-right: 2.5rem;
-}
-
 html {
   height: 100%;
 }
@@ -191,13 +173,19 @@ body {
     padding: 0 3rem;
   }
 }
+@keyframes scale-effect-in {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 .header {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
   font-weight: 400;
   color: #504e4f;
-  background: url("../img/bg-header.jpg") no-repeat;
-  background-size: cover;
 }
 .header__top {
   background-color: #f39022;
@@ -213,6 +201,17 @@ body {
 .header__top button:hover {
   color: #b6b4b5;
 }
+.header__sticky--fixed {
+  position: fixed;
+  width: 100vw;
+  max-width: 100vw;
+  top: 0;
+  z-index: 5;
+  animation: .4s forwards ease-in-out scale-effect-in;
+}
+.header__bottom {
+  background-image: url("../img/bg-header.jpg");
+}
 .header__bottom h1 {
   font-size: 6.3rem;
 }
@@ -222,11 +221,6 @@ body {
     font-size: 3.8rem;
   }
 }
-.nav-link {
-  font-size: 1.3rem;
-  color: #504e4f;
-}
-
 .content {
   background-color: #f6f6f6;
 }
@@ -289,9 +283,18 @@ body {
   background: url("../img/bg-popular.png") no-repeat;
   background-size: cover;
 }
+.footer .section-popular__item .col-12.bg-white:hover {
+  background-color: #b6b4b5 !important;
+}
 .footer .section-popular__link {
   font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
+  color: #504e4f;
+}
+.footer .section-popular__link:hover {
+  color: #f39022;
+}
+.footer .section-popular__link:hover span {
   color: #504e4f;
 }
 .footer .section-popular__icon {
@@ -323,6 +326,27 @@ body {
   background-color: #3f3e3e;
 }
 
+.nav-link {
+  font-size: 1.3rem;
+  color: #504e4f;
+}
+
+.social i {
+  font-size: 2.2rem;
+  margin-right: 2.5rem;
+}
+
 a {
   transition: color 0.3s linear;
+}
+
+.footer .section-popular__item .col-12.bg-white {
+  transition: background-color 0.3s linear;
+}
+
+.header__bottom {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
